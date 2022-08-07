@@ -124,14 +124,13 @@ h1 {
 }
 /*  */
 .input-field {
-  text-align: justify;
+  text-align: center;
   font-size: 16px;
-  /* color: black; */
-  width: 200px;
+  width: 150px;
   height: 40px;
   border: none;
   outline: none;
-  border-bottom: pink 4px solid;
+  border-bottom: pink 2px solid;
 }
 
 .submit-btn {
@@ -148,9 +147,17 @@ h1 {
 }
 .logout-btn {
   padding: 10px;
-  text-align: right;
 }
 
+.login-form.hide-form {
+  padding-left: 500px;
+}
+
+.main-1 {
+  display: flex;
+  /* margin: right; */
+  justify-content: space-between;
+}
 .hide-welcome {
   display: none;
 }
